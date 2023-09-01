@@ -1,0 +1,188 @@
+.icon {
+    /* font-size: 24px; */
+    color: #ffffff;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-bar {
+    position: sticky;
+    left: 5px;
+    width: 225px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    /* margin-left: 15px */
+    border-right: solid 1px #ffffff;
+}
+
+.nav-bar-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.insta-logo {
+    padding-top: 16px;
+    width: 100%;
+    height: 6rem;
+}
+
+.insta-img {
+    height: 3.5rem;
+    width: auto;
+    margin-left: 1em;
+}
+
+.home {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 10px;
+    margin-right: 8px;
+
+}
+
+.home:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.search {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 10px;
+    margin-right: 8px;
+
+}
+
+.search:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.explore {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 10px;
+    margin-right: 8px;
+
+}
+
+.explore:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.reels {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 10px;
+    margin-right: 8px;
+
+}
+
+.reels:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.messages {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 10px;
+    margin-right: 8px;
+
+}
+
+.messages:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.notifications {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 10px;
+    margin-right: 8px;
+
+}
+
+.notifications:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.create {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 10px;
+    margin-right: 8px;
+}
+
+.create:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.profile {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 10px;
+    margin-right: 8px;
+
+}
+
+.profile-pic {
+    width: 24px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.profile:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.more-father {
+
+    position: relative;
+    /* or absolute or fixed */
+
+    height: 100%;
+
+}
+
+.more {
+    position: absolute;
+    bottom: 20px;
+    width: 10vh;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 10px;
+    padding-right: 100px;
+    margin-right: 8px;
+}
+
+.more:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+
+i {
+    margin-right: 20px;
+}
